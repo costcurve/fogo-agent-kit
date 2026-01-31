@@ -49,7 +49,7 @@ const rpc = createSolanaRpc("https://mainnet.fogo.io/");
 | USDC-FISH | `DjM47hJzwQmsXwRRhsEWsjRVt4vXfEmZTDAP1zhM6XKF` | USDC | FISH | 1.00% | 128 |
 | USDC-wSOL | `2exTq4dyaUa1mwXytfMSZ9r5BAcZ98L2zawBQDMfaU9o` | USDC | wSOL | 0.30% | 64 |
 | FOGO-CHASE | `2zKEnSqCVwPUgR6UkNDr6U5PYGpfwXFrV1pT9LRxQCtk` | FOGO | CHASE | 1.00% | 128 |
-| FOGO-FISH | `HEv4767Y7NwPm367bHuunuhcjbsgVpsybT7etovqc9KR` | FOGO | FISH | 1.00% | 128 |
+| FOGO-FC | `HEv4767Y7NwPm367bHuunuhcjbsgVpsybT7etovqc9KR` | FOGO | FISH Classic | 1.00% | 128 |
 
 ### Pool Details
 
@@ -358,6 +358,10 @@ export const TOKENS = {
   USDC: "uSd2czE61Evaf76RNbq4KPpXnkiL3irdzgLFUMe3NoG",
   stFOGO: "Brasa3xzkSC9XqMBEcN9v53x4oMkpb1nQwfaGMyJE88b",
   iFOGO: "iFoGoY5nMWpuMJogR7xjUAWDJtygHDF17zREeP4MKuD",
+  wSOL: "HLc5qava5deWKeoVkN9nsu9RrqqD8PoHaGsvQzPFNbxR",
+  FISH: "F1SHsk3rbKUJp28MQyyqtmfoJqnrkVUuZYK5ymGW4ZAr",
+  FISH_CLASSIC: "F1SHuJ3sFF2wJoYbUJxK4iZ6CYg6MakFj8q6QHACFd4s",
+  CHASE: "GPK7grvKT8kQPMYsgAN8N537XUNdJLs3WsnXkUNfpump",
 } as const;
 
 export const DECIMALS = {
@@ -365,6 +369,10 @@ export const DECIMALS = {
   USDC: 6,
   stFOGO: 9,
   iFOGO: 9,
+  wSOL: 9,
+  FISH: 9,
+  FISH_CLASSIC: 9,
+  CHASE: 6,
 } as const;
 
 export const POOLS = {
@@ -372,7 +380,9 @@ export const POOLS = {
   FOGO_STFOGO: "Be2eoA9g1Yp8WKqMM14tXjSHuYCudaPpaudLTmC4gizp",
   FOGO_IFOGO: "HULdR8aMSxJAiNJmrTBcfKN4Zq6FgG33AHbQ3nDD8P5E",
   USDC_FISH: "DjM47hJzwQmsXwRRhsEWsjRVt4vXfEmZTDAP1zhM6XKF",
-  FOGO_FISH: "HEv4767Y7NwPm367bHuunuhcjbsgVpsybT7etovqc9KR",
+  USDC_WSOL: "2exTq4dyaUa1mwXytfMSZ9r5BAcZ98L2zawBQDMfaU9o",
+  FOGO_CHASE: "2zKEnSqCVwPUgR6UkNDr6U5PYGpfwXFrV1pT9LRxQCtk",
+  FOGO_FC: "HEv4767Y7NwPm367bHuunuhcjbsgVpsybT7etovqc9KR",
 } as const;
 ```
 

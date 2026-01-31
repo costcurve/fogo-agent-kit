@@ -61,7 +61,7 @@ console.log("stFOGO/FOGO rate:", rate); // ~0.73
 // Faster but may have slippage
 const FOGO_STFOGO_POOL = "Be2eoA9g1Yp8WKqMM14tXjSHuYCudaPpaudLTmC4gizp";
 
-// Use swap pattern from valiant-vortex skill
+// Use swap pattern from valiant skill
 // aForB = true (stFOGO → FOGO)
 ```
 
