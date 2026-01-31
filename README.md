@@ -18,14 +18,51 @@ This kit provides modular skills for interacting with Fogo's DeFi protocols:
 
 ## Quick Start
 
-```bash
-# Install dependencies
-npm install @valiant-trade/vortex @valiant-trade/vortex-client @valiant-trade/vortex-core @solana/kit dotenv
+Choose one of two options to get started:
 
-# Set environment
-cp .env.example .env
-# Edit .env with your RPC URL and wallet path
-```
+### Option 1: Terminal (Claude Code CLI)
+
+1. **Open your terminal**
+   - Mac: Open **Terminal** or **iTerm**
+   - Windows: Open **PowerShell** or **Command Prompt**
+
+2. **Install Claude Code**
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   ```
+
+3. **Start Claude and paste this repo link**
+   ```bash
+   claude
+   ```
+   Then paste: `https://github.com/costcurve/fogo-agent-kit`
+
+### Option 2: Claude App (Desktop or Browser)
+
+1. **Open Claude**
+   - Download the [Claude desktop app](https://claude.ai/download), or
+   - Go to [claude.ai](https://claude.ai) in your browser
+
+2. **Start a new chat and paste this repo link**
+   ```
+   https://github.com/costcurve/fogo-agent-kit
+   ```
+
+---
+
+### Start Building
+
+Once Claude has the repo, ask it to build anything on Fogo. Claude handles all dependencies and code for you.
+
+**Example prompts:**
+
+> "Build a market making bot that rebalances my LP positions on Valiant when they go out of range"
+
+> "Create a script that stakes my FOGO on Brasa and deposits the stFOGO as collateral on Pyron"
+
+> "Monitor the FOGO-USDC pool price and alert me when it drops below $0.50"
+
+> "Build a yield farming strategy that compounds my Valiant LP fees every hour"
 
 ## Token Addresses
 
