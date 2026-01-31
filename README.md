@@ -13,6 +13,7 @@ This kit provides modular skills for interacting with Fogo's DeFi protocols:
 | [pyron](./skills/pyron/SKILL.md) | Pyron lending protocol - deposit, borrow, repay |
 | [brasa](./skills/brasa/SKILL.md) | Brasa liquid staking - FOGO to stFOGO |
 | [ignition](./skills/ignition/SKILL.md) | Ignition liquid staking - FOGO to iFOGO |
+| [fogolend](./skills/fogolend/SKILL.md) | Fogolend lending protocol - lend, borrow, earn yield |
 | [data-providers](./skills/data-providers/SKILL.md) | Price feeds from Codex, Birdeye, DexScreener, etc. |
 
 ## Quick Start

@@ -34,8 +34,10 @@ const rpc = createSolanaRpc("https://mainnet.fogo.io/");
 | USDC | USDC | `uSd2czE61Evaf76RNbq4KPpXnkiL3irdzgLFUMe3NoG` | 6 |
 | stFOGO | stFOGO | `Brasa3xzkSC9XqMBEcN9v53x4oMkpb1nQwfaGMyJE88b` | 9 |
 | iFOGO | iFOGO | `iFoGoY5nMWpuMJogR7xjUAWDJtygHDF17zREeP4MKuD` | 9 |
-| FISH v1 | FISH | `F1SHuJ3sFF2wJoYbUJxK4iZ6CYg6MakFj8q6QHACFd4s` | 9 |
-| FISH v2 | FISH | `F1SHsk3rbKUJp28MQyyqtmfoJqnrkVUuZYK5ymGW4ZAr` | 9 |
+| wSOL | wSOL | `HLc5qava5deWKeoVkN9nsu9RrqqD8PoHaGsvQzPFNbxR` | 9 |
+| FISH | FISH | `F1SHsk3rbKUJp28MQyyqtmfoJqnrkVUuZYK5ymGW4ZAr` | 9 |
+| FISH Classic | FISH | `F1SHuJ3sFF2wJoYbUJxK4iZ6CYg6MakFj8q6QHACFd4s` | 9 |
+| CHASE | CHASE | `GPK7grvKT8kQPMYsgAN8N537XUNdJLs3WsnXkUNfpump` | 6 |
 
 ## Pool Addresses
 
@@ -45,8 +47,8 @@ const rpc = createSolanaRpc("https://mainnet.fogo.io/");
 | FOGO-stFOGO | `Be2eoA9g1Yp8WKqMM14tXjSHuYCudaPpaudLTmC4gizp` | FOGO | stFOGO | 0.30% | 64 |
 | FOGO-iFOGO | `HULdR8aMSxJAiNJmrTBcfKN4Zq6FgG33AHbQ3nDD8P5E` | FOGO | iFOGO | 0.05% | 8 |
 | USDC-FISH | `DjM47hJzwQmsXwRRhsEWsjRVt4vXfEmZTDAP1zhM6XKF` | USDC | FISH | 1.00% | 128 |
-| USDC-HLc5 | `2exTq4dyaUa1mwXytfMSZ9r5BAcZ98L2zawBQDMfaU9o` | USDC | HLc5... | 0.30% | 64 |
-| FOGO-GPK7 | `2zKEnSqCVwPUgR6UkNDr6U5PYGpfwXFrV1pT9LRxQCtk` | FOGO | GPK7... | 1.00% | 128 |
+| USDC-wSOL | `2exTq4dyaUa1mwXytfMSZ9r5BAcZ98L2zawBQDMfaU9o` | USDC | wSOL | 0.30% | 64 |
+| FOGO-CHASE | `2zKEnSqCVwPUgR6UkNDr6U5PYGpfwXFrV1pT9LRxQCtk` | FOGO | CHASE | 1.00% | 128 |
 | FOGO-FISH | `HEv4767Y7NwPm367bHuunuhcjbsgVpsybT7etovqc9KR` | FOGO | FISH | 1.00% | 128 |
 
 ### Pool Details

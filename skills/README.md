@@ -7,4 +7,5 @@
 | [pyron](./pyron/SKILL.md) | Pyron lending protocol - deposit, borrow, repay |
 | [brasa](./brasa/SKILL.md) | Brasa liquid staking - FOGO to stFOGO |
 | [ignition](./ignition/SKILL.md) | Ignition liquid staking - FOGO to iFOGO |
+| [fogolend](./fogolend/SKILL.md) | Fogolend lending protocol - lend, borrow, earn yield |
 | [data-providers](./data-providers/SKILL.md) | Price feeds from Codex, Birdeye, DexScreener, etc. |
